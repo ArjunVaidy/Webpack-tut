@@ -1,6 +1,13 @@
 const person = {
     name:'John',
     age:28,
-    gender:'male'
+    gender:'male',
+    job:'Teacher'
 };
-console.log(person);
+
+const anotherPerson = {
+    ...person,
+    name:'Reese'
+}
+
+let text = Object.entries(anotherPerson)

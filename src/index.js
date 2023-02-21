@@ -1,3 +1,5 @@
+import './styles/index.css'
+
 const person = {
     name:'John',
     age:28,
@@ -10,4 +12,7 @@ const anotherPerson = {
     name:'Reese'
 }
 
-let text = Object.entries(anotherPerson)
+let text = Object.entries(anotherPerson);
+console.log(person);
+console.log(anotherPerson);
+console.log(text);
